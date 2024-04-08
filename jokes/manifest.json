@@ -1,0 +1,16 @@
+{
+    "name":"jokes",
+    "version":"1.0.0",
+    "author":"khushi verma",
+    "manifest_version":3,
+    "action":{
+        "default_popup":"joke.html",
+        "default_title":"dad joke",
+        "default_icon":"boy.png"
+        
+    },
+    "icons":{
+        "128":"boy.png"
+    },
+    "permissions":["activeTab"]
+}
