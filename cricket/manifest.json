@@ -1,0 +1,16 @@
+{
+    "name":"cricket",
+    "version":"1.0.0",
+    "manifest_version":3,
+    "author":"khushi verma",
+    "action":{
+        "default_popup":"index.html",
+        "default_title":"ipl news",
+        "default_icon":"cricket.png"
+        
+    },
+    "icons":{
+        "180":"cricket.png"
+    },
+    "permissions":["activeTab"]
+}

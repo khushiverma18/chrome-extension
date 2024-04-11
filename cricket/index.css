@@ -1,0 +1,38 @@
+body{
+    width: 500px;
+    height: 450px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}
+
+#sc{
+    display: inline-flex;
+    margin: auto 22px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(105, 8, 105);
+    border-radius: 6px;
+    border: 3px solid black;
+    box-shadow: 10px 10px rgb(88, 85, 85);
+    padding: 20px;}
+
+ p{ 
+    animation:  shake 0.8s  ; 
+  } 
+  
+  @keyframes shake{ 
+    0%{ 
+      transform: translateX(0) 
+    } 
+    25%{ 
+      transform: translateX(25px); 
+    } 
+      
+    50%{ 
+      transform: translateX(-25px); 
+    } 
+    100%{ 
+      transform: translateX(0px); 
+    } 
+  } 
